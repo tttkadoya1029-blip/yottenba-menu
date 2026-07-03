@@ -10,7 +10,7 @@ export default function DrinkMenuPage() {
 
   return (
     <div className="flex flex-1 flex-col">
-      <PageHeader title="Drink Menu" titleJa="ドリンクメニュー" />
+      <PageHeader active="drink" />
       <div className="flex-1 px-4 py-6">
         {images.length === 0 ? (
           <div className="mx-auto flex max-w-md flex-col items-center gap-2 py-20 text-center text-foreground/60">

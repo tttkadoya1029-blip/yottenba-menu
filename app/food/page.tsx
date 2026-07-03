@@ -13,7 +13,7 @@ export default function FoodMenuPage() {
 
   return (
     <div className="flex flex-1 flex-col">
-      <PageHeader title="Food Menu" titleJa="フードメニュー" />
+      <PageHeader active="food" />
       <MenuGallery categories={foodCategories} imagesByCategory={imagesByCategory} />
     </div>
   );
