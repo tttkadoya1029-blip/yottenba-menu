@@ -20,7 +20,7 @@ export const foodCategories: Category[] = [
   { id: "dessert", label: "Dessert", labelJa: "デザート" },
 ];
 
-const IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp"];
+const IMAGE_EXTENSIONS = [".webp"];
 
 /**
  * Lists menu images for a category by reading /public/menu/<base>/<categoryId>

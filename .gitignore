@@ -37,8 +37,14 @@ next-env.d.ts
 
 # original raw source images (already organized into /public/menu)
 /Food/
+/Food_menu2/
 /Main food/
 /dessert/
 /drink_menu/
+/Food_webp/
+/Food_menu2_webp/
+/Main_Food_webp/
+/Drink_webp/
+/dessert_webp/
 /*.jpg
 /*.webp

@@ -15,8 +15,9 @@ Open http://localhost:3000.
 ## Adding / replacing menu images
 
 Images are read directly from folders under `public/menu` — drop a
-`.jpg`/`.png`/`.webp` file into the right folder and it appears on the
-site automatically, no code changes needed.
+`.webp` file into the right folder and it appears on the site
+automatically, no code changes needed. Only `.webp` is served
+(performance); convert other formats before adding them.
 
 ```
 public/menu/
@@ -33,8 +34,8 @@ public/menu/
   image; empty ones are hidden automatically.
 - Drink Menu has no tabs — every image directly under
   `public/menu/drink/` is shown, stacked vertically, in filename order.
-- Files are sorted by filename, so name them `01.jpg`, `02.jpg`, etc.
-  to control order.
+- Files are sorted by filename, so name them `01.webp`, `02.webp`,
+  etc. to control order.
 
 ## Reserve Now button
 
