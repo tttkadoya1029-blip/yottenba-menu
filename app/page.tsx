@@ -3,10 +3,6 @@ import Link from "next/link";
 const menuButtons = [
   { href: "/food", label: "FOOD MENU", ja: "フードメニュー" },
   { href: "/drink", label: "DRINK MENU", ja: "ドリンクメニュー" },
-  { href: "/promo", label: "PROMO", ja: "プロモーション" },
-  { href: "/private-room", label: "PRIVATE ROOM", ja: "個室" },
-  { href: "/parking", label: "PARKING", ja: "駐車場" },
-  { href: "/birthday", label: "BIRTHDAY", ja: "誕生日特典" },
 ];
 
 export default function Home() {
@@ -17,10 +13,10 @@ export default function Home() {
           Izakaya
         </span>
         <h1 className="mt-2 text-4xl font-extrabold tracking-wide text-gold">
-          酔っ手場
+          酔っ手羽
         </h1>
         <p className="mt-1 text-sm tracking-wide text-foreground/70">
-          Yotteba Izakaya Makati
+          Yotteba Izakaya Revolution
         </p>
       </div>
 

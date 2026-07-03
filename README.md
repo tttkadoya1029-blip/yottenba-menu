@@ -1,6 +1,7 @@
-# Yotteba Izakaya Makati — Menu Site
+# 酔っ手羽 Yotteba Izakaya Revolution — Menu Site
 
 Mobile-first menu site built with Next.js (App Router) + Tailwind CSS.
+Top page links to Food Menu and Drink Menu only.
 
 ## Getting started
 
@@ -23,26 +24,22 @@ public/menu/
     sushi-sashimi/   rice-bowl/   salad/   nabe/   noodles/
     appetizer/       grilled/     fried/   rice-other/   dessert/
   drink/
-    beer/  highball/  cocktail/  shochu-sake/  whisky/  soft-drink/
-  promo/          (shown on the Promo page)
-  private-room/   (shown on the Private Room page)
-  parking/        (shown on the Parking page)
-  birthday/       (shown on the Birthday page)
+    (flat folder, shown as a single vertical list — no categories)
 ```
 
-- Category folders under `food/` and `drink/` are defined in
-  `lib/menu.ts` (`foodCategories` / `drinkCategories`). Add a new entry
-  there (and a matching folder) to introduce a new tab.
-- A category tab only appears once it has at least one image; empty
-  ones are hidden automatically.
+- Food category folders are defined in `lib/menu.ts`
+  (`foodCategories`). Add a new entry there (and a matching folder) to
+  introduce a new tab. A tab only appears once it has at least one
+  image; empty ones are hidden automatically.
+- Drink Menu has no tabs — every image directly under
+  `public/menu/drink/` is shown, stacked vertically, in filename order.
 - Files are sorted by filename, so name them `01.jpg`, `02.jpg`, etc.
   to control order.
 
 ## Reserve Now button
 
-The sticky "Reserve Now" button links to Messenger. Update
-`MESSENGER_USERNAME` in `lib/menu.ts` with the real Facebook page
-username (currently a placeholder: `yottebamakati`).
+The sticky "Reserve Now" button links to the restaurant's Facebook
+page. Update `RESERVE_URL` in `lib/menu.ts` to change it.
 
 ## Deploying to Vercel
 

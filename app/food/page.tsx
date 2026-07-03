@@ -3,7 +3,7 @@ import MenuGallery from "@/components/MenuGallery";
 import { foodCategories, getCategoryImages } from "@/lib/menu";
 
 export const metadata = {
-  title: "Food Menu | Yotteba Izakaya Makati",
+  title: "Food Menu | 酔っ手羽 Yotteba Izakaya Revolution",
 };
 
 export default function FoodMenuPage() {

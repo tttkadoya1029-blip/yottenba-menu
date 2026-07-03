@@ -20,15 +20,6 @@ export const foodCategories: Category[] = [
   { id: "dessert", label: "Dessert", labelJa: "デザート" },
 ];
 
-export const drinkCategories: Category[] = [
-  { id: "beer", label: "Beer", labelJa: "ビール" },
-  { id: "highball", label: "Highball", labelJa: "ハイボール" },
-  { id: "cocktail", label: "Cocktail", labelJa: "カクテル" },
-  { id: "shochu-sake", label: "Shochu & Sake", labelJa: "焼酎・日本酒" },
-  { id: "whisky", label: "Whisky", labelJa: "ウイスキー" },
-  { id: "soft-drink", label: "Soft Drink", labelJa: "ソフトドリンク" },
-];
-
 const IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp"];
 
 /**
@@ -58,6 +49,4 @@ export function getFolderImages(folder: string): string[] {
     .map((file) => `/menu/${folder}/${file}`);
 }
 
-export const MESSENGER_USERNAME = "yottebamakati";
-export const MESSENGER_URL = `https://m.me/${MESSENGER_USERNAME}`;
-export const INSTAGRAM_URL = "https://instagram.com/yottebamakati";
+export const RESERVE_URL = "https://www.facebook.com/profile.php?id=61576051766013";

@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yotteba Izakaya Makati | Menu",
-  description: "Yotteba Izakaya Makati の公式メニューサイト。Food, Drink, Promo, Private Room, Parking, Birthday の情報はこちら。",
+  title: "酔っ手羽 Yotteba Izakaya Revolution | Menu",
+  description: "酔っ手羽 Yotteba Izakaya Revolution の公式メニューサイト。",
 };
 
 export default function RootLayout({
